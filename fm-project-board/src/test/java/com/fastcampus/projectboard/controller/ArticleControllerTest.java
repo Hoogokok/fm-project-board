@@ -31,7 +31,6 @@ class ArticleControllerTest {
                 .andExpect(view().name("articles/index"))
                 .andExpect(model().attributeExists("articles"));
     }
-    @Disabled("개발 중")
 
     @DisplayName("[view][GET] 게시글 상세 페이지 - 정상 호출")
     @Test
